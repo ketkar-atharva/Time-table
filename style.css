@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+/**Heading**/
+.greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(82, 80, 80);
+    color: white;
+    font-weight: 700;
+}
+/**timetable**/
+#h{
+    margin-left: 10px;
+}
+#tt{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    
+   
+}
+#monday{
+    display: none;
+}
+#tuesday{
+    display: none;
+}
+#wednesday{
+    display: none;
+}
+#thursday{
+    display: none;
+}
+#friday{
+    display: none;
+}
+#saturday{
+    display: none;
+}
